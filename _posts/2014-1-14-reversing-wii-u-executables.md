@@ -12,6 +12,8 @@ The only difference between RPX and RPL is that the first one has the main entry
 
 Ok, so this is what i understood about the header:
 
+## CAFE ELF Header
+
 ```c
 /* Total size 0x500 -> elf + section table */
 typedef struct __cafe_elf {
@@ -40,6 +42,8 @@ typedef struct __cafe_elf {
 } cafe_elf;
 ```
 
+## CAFE ELF Section Table
+
 ```c
 typedef struct __cafe_elf_section_tbl {
     uint32_t flags;   // 0x08000006 <-- example
@@ -59,6 +63,8 @@ typedef struct __cafe_elf_section_tbl {
 } cafe_elf_section_tbl;
 ```
 
+## CAFE ELF Section Data Table
+
 Each section is compressed through ZLIB and has this structure:
 
 ```c
@@ -66,5 +72,5 @@ typedef struct __cafe_elf_section_data {
     uint32_t decompressed_size;
     uint16_t zlib_compression_hdr;
     uint8_t  data[];
-} cafe_elf_section_tbl;
+} cafe_elf_section_data_tbl;
 ```

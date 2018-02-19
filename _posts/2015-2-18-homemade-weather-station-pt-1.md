@@ -21,9 +21,11 @@ While i was searching for boards, i found an old mini engine for a model railway
 
 What's next? Well i found also a solar panel from a broken Chinese calculator (those given as gadgets in the fairs) and i've decided to use it to get the light intensity, but since i have also a photoresistor, i'll probably use both to check the light. The Anemometer (aka the engine) ,the solar panel and the photoresistor will be attached to a `MCP3008` (an 8 channel ADC that i got for free).
 
-![_config.yml]({{ site.baseurl }}/images/to-be-integrated.png "Photoresistor | MCP3008 | 3.3V Solar panel")
+![_config.yml]({{ site.baseurl }}/images/to-be-integrated.png)
+
+(In the photo you will see: a photoresistor, the MCP3008 and the 3.3V Solar panel)
 
 Now i'm waiting for some components like my Arduino nano v3.0 and some other parts like the raindrops sensor.
 
-For now i've spent less then 2 EUR (less then 1 EUR for the DHT11, 1 EUR for 2 DS18B20).
-To test the components (for now) i've used my Raspberry Pi and my HD44780. 
+For now i've spent less then 2 EUR (less then 1 EUR for the `DHT11`, 1 EUR for 2 `DS18B20`).
+To test the components (for now) i've used my `Raspberry Pi` and my `HD44780`. 

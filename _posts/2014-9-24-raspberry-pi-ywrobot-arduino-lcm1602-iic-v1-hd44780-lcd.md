@@ -3,7 +3,7 @@ layout: post
 title: Raspberry PI + YwRobot Arduino LCM1602 IIC V1 HD44780 LCD
 ---
 
-![_config.yml]({{ site.baseurl }}/images/liblcm1602_small.png)
+![_config.yml]({{ site.baseurl }}/images/liblcm1602_small.jpg)
 
 Finally i have some time to write a new post.
 

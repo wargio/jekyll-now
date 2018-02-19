@@ -3,6 +3,9 @@ layout: post
 title: radare2 and vpcext
 ---
 
+![_config.yml]({{ site.baseurl }}/images/vpcext.jpg)
+
+
 radare2 is now capable to decompile the following "instructions"
 
 ```
@@ -32,9 +35,5 @@ radare2 is now capable to decompile the following "instructions"
 ```
 
 You can see the commit [here](https://github.com/radare/radare2/pull/9350)
-
-![_config.yml]({{ site.baseurl }}/images/vpcext.jpg)
-
-`Derived from a function in a notpetya sample binary`
 
 [Twitter Share](https://twitter.com/Der0ad/status/961750815915393024)
